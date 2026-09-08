@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Berlin Sans FB Demi", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+header {
+
+    background-color: #126b3f;
+
+    padding: 20px;
+
+  
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+header h1 {
+
+    color: white;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px;
+
+}
+
+nav a:hover {
+
+    background-color: #0d4d2d;
+
+    border-radius: 5px;
+
+}
+
+
+.inicio {
+
+    min-height: 500px;
+
+    background-color: #d62828;
+
+    color: white;
+
+    padding: 50px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+}
+
+
+.texto {
+
+    width: 450px;
+
+    padding: 20px;
+
+}
