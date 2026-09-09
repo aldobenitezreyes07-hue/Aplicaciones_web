@@ -99,3 +99,253 @@ nav a:hover {
     padding: 20px;
 
 }
+.texto h2 {
+
+    font-size: 45px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.texto p {
+
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+
+}
+
+
+button {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #ffd700;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: white;
+
+}
+
+.arbol {
+
+    width: 300px;
+
+    text-align: center;
+
+    font-size: 180px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.estrella {
+
+    font-size: 50px;
+
+}
+
+.regalo {
+
+    font-size: 45px;
+
+}
+
+
+
+section {
+
+    padding: 60px 8%;
+
+}
+
+section > h2 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    color: #126b3f;
+
+    font-size: 35px;
+
+}
+
+
+/* CONTENEDOR FLEX */
+
+.contenedor {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    flex-wrap: wrap;
+
+    flex-flow: row wrap;
+
+    align-content: center;
+
+    gap: 20px;
+
+}
+
+
+/* TARJETAS */
+
+.tarjeta {
+
+    width: 220px;
+
+    min-height: 180px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 3px 8px #bbb;
+
+}
+
+
+.tarjeta h3 {
+
+    color: #d62828;
+
+    margin-bottom: 15px;
+
+}
+
+
+.tarjeta p {
+
+    line-height: 1.5;
+
+}
+
+
+.tarjeta1 {
+
+    order: 1;
+
+}
+
+
+.tarjeta2 {
+
+    order: 2;
+
+}
+
+
+.tarjeta3 {
+
+    order: 3;
+
+}
+
+
+.tarjeta4 {
+
+    order: 4;
+
+}
+
+.regalos {
+
+    background-color: #126b3f;
+
+}
+
+
+.regalos h2 {
+
+    color: white;
+
+}
+.contenedor-regalos {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+.regalo-card {
+
+    background-color: white;
+
+    width: 250px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+}
+
+
+.regalo-card:nth-child(2) {
+
+    align-self: flex-start;
+
+}
+
+
+.regalo-card:nth-child(3) {
+
+    align-self: flex-end;
+
+}
+
+
+.emoji {
+
+    font-size: 60px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.regalo-card h3 {
+
+    color: #d62828;
+
+    margin-bottom: 10px;
+
+}
+
+
+
