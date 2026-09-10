@@ -191,8 +191,6 @@ section > h2 {
 }
 
 
-/* CONTENEDOR FLEX */
-
 .contenedor {
 
     display: flex;
@@ -210,9 +208,6 @@ section > h2 {
     gap: 20px;
 
 }
-
-
-/* TARJETAS */
 
 .tarjeta {
 
@@ -276,19 +271,19 @@ section > h2 {
 
 }
 
-.regalos {
+.cena {
 
     background-color: #126b3f;
 
 }
 
 
-.regalos h2 {
+.cena h2 {
 
     color: white;
 
 }
-.contenedor-regalos {
+.contenedor-cena {
 
     display: flex;
 
@@ -301,9 +296,9 @@ section > h2 {
     gap: 20px;
 
 }
-.regalo-card {
+.cena-card {
 
-    background-color: white;
+    background-color: rgb(150, 19, 19);
 
     width: 250px;
 
@@ -316,36 +311,43 @@ section > h2 {
 }
 
 
-.regalo-card:nth-child(2) {
+.cena-card:nth-child(2) {
 
     align-self: flex-start;
 
 }
 
 
-.regalo-card:nth-child(3) {
+.cena-card:nth-child(3) {
 
     align-self: flex-end;
 
 }
+.contenedor-Cenas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.contenedor-Cenas > div {
+    width: 45%;
+    background-color: rgb(250, 247, 56);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
 
 .emoji {
 
-    font-size: 60px;
+    font-size: 30px;
 
-    margin-bottom: 15px;
-
-}
-
-
-.regalo-card h3 {
-
-    color: #d62828;
-
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
+
+
+
 
 
 
