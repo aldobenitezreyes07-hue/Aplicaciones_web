@@ -1,0 +1,214 @@
+:root{
+    --turquesa: #20c997;
+    --gris: #6c757d;
+    --morado: #9b59b6;
+    --coral: #ff6f61;
+    --azulmarino: #264653;
+    --dorado: #e9c46a;
+    --menta: #2a9d8f;
+    --vino: #8d3b72;
+    --texcolor: #343a40;
+    --bgcolor: #f8f9fa;
+}
+
+
+/* CAMBIO DE COLOR */
+
+.div_flex.modo_color{
+    --turquesa: #ff9f1c;
+    --gris: #5e60ce;
+    --morado: #00b4d8;
+    --coral: #70e000;
+    --azulmarino: #e76f51;
+    --dorado: #8338ec;
+    --menta: #ff006e;
+    --vino: #3a86ff;
+}
+
+
+/* DIV PRINCIPAL */
+
+.div_flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* DIV HIJO */
+
+.div_flexhijo{
+    height: 10rem;
+    width: 16%;
+    border-radius: 15px;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+/* COLORES */
+
+.turquesa{
+    background-color: var(--turquesa);
+}
+
+.gris{
+    background-color: var(--gris);
+}
+
+.morado{
+    background-color: var(--morado);
+}
+
+.coral{
+    background-color: var(--coral);
+}
+
+.azulmarino{
+    background-color: var(--azulmarino);
+}
+
+.dorado{
+    background-color: var(--dorado);
+}
+
+.menta{
+    background-color: var(--menta);
+}
+
+.vino{
+    background-color: var(--vino);
+}
+
+
+/* HOVER */
+
+.ABR_div1:hover{
+    background-color: var(--gris);
+}
+
+.ABR_div2:hover{
+    background-color: var(--turquesa);
+}
+
+.ABR_div3:hover{
+    background-color: var(--coral);
+}
+
+.ABR_div4:hover{
+    background-color: var(--dorado);
+}
+
+.ABR_div5:hover{
+    background-color: var(--menta);
+}
+
+.ABR_div6:hover{
+    background-color: var(--morado);
+}
+
+.ABR_div7:hover{
+    background-color: var(--vino);
+}
+
+.ABR_div8:hover{
+    background-color: var(--azulmarino);
+}
+
+
+/* TITULO */
+
+h1{
+    color: var(--texcolor);
+    font-size: 3rem;
+}
+
+
+/* TEXTO */
+
+p{
+    color: var(--texcolor);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+
+/* HEADER */
+
+header{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* DIV MAIN */
+
+.div_main{
+    text-align: center;
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+
+/* BOTON */
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background-color: var(--bgcolor);
+    color: var(--texcolor);
+    border-radius: 10px;
+    border: 1px solid var(--texcolor);
+}
+
+
+/* HOVER DEL BOTON */
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--texcolor);
+    color: var(--bgcolor);
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1024px){
+
+    .div_flexhijo{
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+
+    .div_flexhijo{
+        width: 75%;
+    }
+
+    .div_flex{
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:480px){
+
+    .div_flexhijo{
+        width: 98%;
+    }
+
+    h1{
+        font-size: 1.7rem;
+    }
+
+    p, .btn{
+        font-size: 1rem;
+    }
+
+}
