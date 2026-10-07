@@ -12,7 +12,7 @@
 }
 
 
-/* CAMBIO DE COLOR */
+
 
 .div_flex.modo_color{
     --turquesa: #ff9f1c;
@@ -26,7 +26,7 @@
 }
 
 
-/* DIV PRINCIPAL */
+
 
 .div_flex{
     display: flex;
@@ -36,7 +36,6 @@
 }
 
 
-/* DIV HIJO */
 
 .div_flexhijo{
     height: 10rem;
@@ -49,7 +48,7 @@
 }
 
 
-/* COLORES */
+
 
 .turquesa{
     background-color: var(--turquesa);
@@ -84,7 +83,7 @@
 }
 
 
-/* HOVER */
+
 
 .ABR_div1:hover{
     background-color: var(--gris);
@@ -119,7 +118,7 @@
 }
 
 
-/* TITULO */
+
 
 h1{
     color: var(--texcolor);
@@ -127,7 +126,7 @@ h1{
 }
 
 
-/* TEXTO */
+
 
 p{
     color: var(--texcolor);
@@ -136,7 +135,7 @@ p{
 }
 
 
-/* HEADER */
+
 
 header{
     padding: 1rem;
@@ -144,7 +143,6 @@ header{
 }
 
 
-/* DIV MAIN */
 
 .div_main{
     text-align: center;
@@ -152,7 +150,7 @@ header{
 }
 
 
-/* BOTON */
+
 
 .btn{
     padding: 1rem 2rem;
@@ -164,7 +162,6 @@ header{
 }
 
 
-/* HOVER DEL BOTON */
 
 .btn:hover{
     cursor: pointer;
@@ -173,7 +170,6 @@ header{
 }
 
 
-/* RESPONSIVE */
 
 @media screen and (max-width:1024px){
 
